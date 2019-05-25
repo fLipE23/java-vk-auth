@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="475.0" prefWidth="350.0" style="-fx-background-color: #eee;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vk.FirstController">
+   <children>
+      <Button fx:id="enterVKButton" layoutX="125.0" layoutY="219.0" mnemonicParsing="false" onAction="#switchToVKAuth" style="-fx-background-color: #45668e; -fx-border-radius: 0px; -fx-padding: 10px;" text="Войти в VK" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
